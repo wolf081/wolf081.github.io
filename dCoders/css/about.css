@@ -1,0 +1,25 @@
+.about .features {
+  text-align: center;
+  margin-top: 10px; }
+  .about .features .features-icon {
+    font-size: 22px;
+    height: 56px;
+    width: 56px;
+    line-height: 56px;
+    border-radius: 50%;
+    border: 1px solid #dd464a;
+    text-align: center;
+    display: inline-block;
+    font-weight: 600;
+    border-right: 4px solid #dd464a;
+    border-top: 2px solid #dd464a;
+    border-bottom: 2px solid #dd464a; }
+    .about .features .features-icon i {
+      color: #dd464a; }
+  .about .features h4 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 17px; }
+  .about .features p {
+    color: #6c757d;
+    margin-top: 10px; }

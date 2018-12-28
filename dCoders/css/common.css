@@ -1,0 +1,39 @@
+.section-title {
+  text-align: center;
+  padding-bottom: 30px; }
+  .section-title h2 {
+    font-weight: 800;
+    font-size: 40px;
+    color: #2e2e2e;
+    font-family: 'Fira Sans', sans-serif; }
+  .section-title p {
+    color: #6c757d;
+    font-family: 'Open Sans', sans-serif; }
+
+.section-padding {
+  padding: 68px 0px; }
+
+.bg-grey {
+  background: #f7f8f9; }
+
+#back-to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 9999;
+  width: 45px;
+  height: 45px;
+  padding: 8px;
+  text-align: center;
+  line-height: 26px;
+  background: #dd464a;
+  color: #f7f7f7;
+  cursor: pointer;
+  border: 0;
+  border-radius: 2px;
+  font-size: 33px;
+  text-decoration: none;
+  transition: opacity 0.2s ease-out;
+  opacity: 0; }
+  #back-to-top.show {
+    opacity: 1; }

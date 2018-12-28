@@ -1,0 +1,16 @@
+.services .services-item {
+  margin-bottom: 15px;
+  box-shadow: 1px 2px 23px -15px rgba(0, 0, 0, 0.7);
+  background: #fff;
+  padding: 40px; }
+  .services .services-item .services-icon img {
+    max-width: 45px;
+    float: left;
+    margin-right: 20px; }
+  .services .services-item .services-info {
+    overflow: hidden; }
+    .services .services-item .services-info h4 {
+      font-size: 18px;
+      font-weight: 600; }
+    .services .services-item .services-info p {
+      color: #6c757d; }

@@ -1,0 +1,6 @@
+.contact .contact_detail {
+  padding: 40px 20px;
+  background: red; }
+
+.contact .contact_detail-item {
+  display: flex; }

@@ -1,0 +1,40 @@
+.navbar {
+  transition: 300ms ease; }
+  .navbar .navbar-title {
+    margin-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #dd464a; }
+  .navbar .hamburger:hover {
+    opacity: 1 !important; }
+  .navbar .hamburger:focus {
+    outline: none; }
+  .navbar .hamburger .hamburger-box .hamburger-inner, .navbar .hamburger .hamburger-box .hamburger-inner:after, .navbar .hamburger .hamburger-box .hamburger-inner:before {
+    background: #111111; }
+
+.nav-item .nav-link {
+  margin-left: 10px;
+  color: #e0dfe3;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  cursor: pointer;
+  position: relative;
+  font-weight: 700; }
+
+.nav-item .nav-link:hover {
+  color: #DD464A !important; }
+
+.nav-item .nav-link.active {
+  color: #DD464A !important; }
+
+.navBar_scrolled {
+  color: #111111;
+  background: #ffffff;
+  box-shadow: 0 6px 11px rgba(0, 0, 0, 0.1); }
+
+.nav-link_scrolled {
+  color: #111111 !important; }
