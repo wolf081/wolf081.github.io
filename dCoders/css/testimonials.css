@@ -8,7 +8,8 @@
   .testimonials .testimonials-carousel .testimonials-item p {
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
-    color: #667482; }
+    color: #667482;
+    font-size: 15px; }
   .testimonials .testimonials-carousel .testimonials-item span {
     color: #6c757d; }
   .testimonials .testimonials-carousel .testimonials-item h5 {
