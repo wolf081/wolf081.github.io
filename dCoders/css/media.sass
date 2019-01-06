@@ -1,37 +1,50 @@
 @media only screen and (max-width: 991px)
+	.section-padding
+		padding: 50px 0px	
 	.navbar
 		background: #ffffff
 	.nav-link
 		color: #111111 !important
 		padding: 15px 0px !important
-	.works__item-dialog .popup-description p
-		margin: 0
-	.works__item-dialog .popup-top .info ul
-		margin-bottom: 10px
-	.works__item-dialog
-		.popup-top
-			flex-direction: column
-			img
-				flex: 0 1 auto 
-				position: relative 
-				left: 50% 
-				transform: translateX(-50%) 
-				height: auto
-				width: 80%
-			.info
-				margin-top: 14px
-				margin-left: 0
+	.about
+		text-align: center
+		.about-image
+			margin-top: 30px
+	.portfolio-description
+		max-height: 2000px
+		padding-top: 25px
+		overflow: hidden
+		p 
+			letter-spacing: 0.6px
+			margin-bottom: 1rem
+	.portfolio-popup	
+		width: 100%
+
+	.team-member
+		margin-top: 25px
 	.prices
 		.price_box
 			margin-top: 25px
 
-				
+	
 @media only screen and (max-width: 768px)
 	.navbar
 		padding: 10px 0px !important
 		transition: all 0.5s ease-in-out
 		z-index: 999
+	.footer-item
+		margin-top: 12px
 
+@media only screen and (max-width: 575px)
+	.team-member
+		.team-member_info
+			span
+				font-size: 25px
+
+				
+@media only screen and (max-width: 361px)
+	.about .about-info .buttons a
+		padding: 10px 19px 10px 19px
 
 // Header Banner
 @media screen and (max-width: 700px)
@@ -49,35 +62,4 @@
 		.header__banner
 			.name 	
 				margin-bottom: 20px
-
-// Gallery Buttons
-@media only screen and (max-width: 535px)
-	.works-group_item
-		padding: 0.5em 1em !important
-@media only screen and (max-width: 444px)
-	.works-group_item
-		font-size: 16px !important
-		padding: 0.5em 0.4em !important
-
-// Gallery Grid
-@media only screen and (max-width: 576px)
-	.grid 
-		.item 
-			margin-bottom: 15px
-			.works__grid_item-image 
-				height: auto
-				max-width: 100%
-
-// Gallery Popup
-@media only screen and (max-width: 576px)
-	.works__item-dialog
-		.popup-top
-			img 
-				width: 100%
-			.info
-				ul 
-					li 
-						span 
-							font-size: 21px
-
 

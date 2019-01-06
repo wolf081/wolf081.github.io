@@ -1,0 +1,46 @@
+.footer {
+  background: #2a3138;
+  padding-top: 60px;
+  padding-bottom: 40px; }
+  .footer .footer-item h2 {
+    font-weight: 800;
+    color: #f8f9fa; }
+  .footer .footer-item .footer_title_border {
+    background: rgba(255, 255, 255, 0.22);
+    width: 100px;
+    height: 2px; }
+  .footer .footer-item p {
+    margin-top: 10px;
+    color: #858f99;
+    line-height: 23px;
+    font-size: 14px;
+    letter-spacing: 0.4px; }
+  .footer .footer-item ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px; }
+    .footer .footer-item ul li {
+      margin-bottom: 5px; }
+      .footer .footer-item ul li a {
+        color: #858f99;
+        text-decoration: none; }
+  .footer .footer-item .socials a i {
+    font-size: 16px;
+    height: 36px;
+    width: 36px;
+    color: #fff;
+    line-height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px; }
+  .footer .footer-item .socials a .facebook {
+    background: #4e71a8; }
+  .footer .footer-item .socials a .telegram {
+    background: #35ade1; }
+  .footer .footer-item .socials a .google-plus {
+    background: #de5145; }
+  .footer .footer-item .socials a .vk {
+    background: #4a76a8; }
+  .footer .footer-item .socials a .twitter {
+    background: #41abe1; }

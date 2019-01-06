@@ -4,10 +4,9 @@
   background: #fff;
   padding: 58px;
   box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.05);
-  font-family: 'Open Sans', sans-serif;
   text-align: center; }
   .prices .price_box .price_name h4 {
-    color: #dd464a;
+    color: #fd4d4d;
     font-weight: 900;
     font-size: 20px;
     letter-spacing: 2px; }
@@ -31,25 +30,22 @@
         .prices .price_box .price_features ul li p {
           font-size: 17px;
           color: #2e2e2e; }
-          .prices .price_box .price_features ul li p i {
-            margin-right: 10px;
-            color: #dd464a; }
+          .prices .price_box .price_features ul li p img {
+            width: 25px;
+            margin-right: 8px; }
           .prices .price_box .price_features ul li p span {
             color: #6c757d; }
   .prices .price_box .price_button {
     margin-top: 35px; }
     .prices .price_box .price_button a {
-      transition: .6s;
       border-radius: 5px;
       padding: 11px 28px;
       color: #fff;
-      background: #dd464a;
+      background: #fd4d4d;
       text-decoration: none; }
-      .prices .price_box .price_button a:hover {
-        background: #c63f42; }
 
 .lable {
-  background: #dd464a;
+  background: #fd4d4d;
   padding: 4px 0;
   padding-top: 12px;
   text-align: center;

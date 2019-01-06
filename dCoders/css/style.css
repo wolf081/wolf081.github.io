@@ -3,9 +3,11 @@
 @import url(header.css);
 @import url(about.css);
 @import url(services.css);
-@import url(works.css);
+@import url(portfolio.css);
 @import url(testimonials.css);
 @import url(team.css);
 @import url(prices.css);
+@import url(help.css);
 @import url(contact.css);
+@import url(footer.css);
 @import url(media.css);

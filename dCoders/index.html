@@ -1,633 +1,1074 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<title>Jacob</title>
-		<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Fira+Sans|Open+Sans|Source+Sans+Pro|Poppins" rel="stylesheet">
-		<!-- Bootstrap core css -->
-	<link rel="stylesheet" href="./assets/bootstrap.min.css">
-		<!-- Progressbar animation -->
-	<link rel="stylesheet" href="./assets/progressbar.css">
-		<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-		<!-- Animate css -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-		<!-- Magnific-Popup css -->
-	<link rel="stylesheet" href="./assets/magnific-popup.css">
-		<!-- Hamburger animation -->
-	<link rel="stylesheet" href="./assets/hamburgers.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="./favicon.ico" type="image/x-icon">
+        <meta name="author" content="Dev_Coders">
+        <meta name="description" content="Jacon - Personal Portfolio Template"/>
+        <meta name="keywords" content=""/>
+        <title>Jacon - Personal Portfolio Template</title>
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Open+Sans|Source+Sans+Pro|Noto+Sans" rel="stylesheet">
+        <!-- Bootstrap Core css -->
+        <link rel="stylesheet" href="./assets/bootstrap.min.css">
+        <!-- Progressbar Animation -->
+        <link rel="stylesheet" href="./assets/progressbar.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <!-- Animate css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <!-- Magnific-Popup css -->
+        <link rel="stylesheet" href="./assets/magnific-popup.css">
+        <!-- Hamburger animation -->
+        <link rel="stylesheet" href="./assets/hamburgers.css">
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" href="./assets/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="./assets/owl/owl.theme.default.min.css">
+        <!-- Main Styles -->
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- Media Queries -->
+        <link rel="stylesheet" href="./css/media.css">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+            <div class="container">
+                <div class="navbar-title">Jacob</div>
+                <button class="hamburger hamburger--slider navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+                </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" data-scroll-nav='0'>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" data-scroll-nav='1'>About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" data-scroll-nav='2'>Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" data-scroll-nav='3'>Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" data-scroll-nav='4'>Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" data-scroll-nav='5'>Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" data-scroll-nav='6'>Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" data-scroll-nav='7'>Help</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" data-scroll-nav='8'>Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header Banner -->
+        <header class="header" data-scroll-index='0'>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="header__banner">
+                            <p class="name">Hi, my name is <span>Jacob</span></p>
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+                                <li><a href="#"><i class="fab fa-vk"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                            <span class="bounce anchor animated infinite slow"><i data-scroll-nav='1' class="fas fa-arrow-down"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Abous Section -->
+        <section class="about section-padding" data-scroll-index='1'>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-title">
+                            <h2>Who I Am?</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum explicabo maxime.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="about-info">
+                            <h2 class="about-info_title">Jacob Edgar</h2>
+                            <span class="about-info_subtitle">Programmer and Designer</span>
+                            <p class="about-info_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et veritatis ut, voluptatibus. Debitis in libero, magnam, suscipit illum voluptate velit aliquam nulla atque dolorem quam cum assumenda veritatis provident veniam beatae commodi architecto sapiente enim? Officiis tenetur vitae, laboriosam tempore , ipsa, quae nemo possimus enim animi quia quam assumenda illum quidem, eveniet sapiente. Eaque accusantium atque consectetur porro aperiam voluptatibus, tempora doloribus rerum.</p>
+                            <p class="about-info_text">laboriosam tempore nesciunt, ad repellat, ipsa iusto delectus blanditiis impedit! A saepe impedit omnis modi quia culpa delectus eum repellendus, voluptate temporibus reprehenderit explicabo, assumenda quo pariatur placeat aliquam fuga, beatae ut eos. Maiores aspernatur, at repellat vero perspiciatis ipsa, quae nemo</p>
+                            <span><strong>Phone: </strong>+ (720) 571-8522</span>
+                            <span><strong>Email: </strong>Jacob06@gmail.com</span>
+                            <div class="buttons">
+                                <a href="#" data-scroll-nav='3'>See my works</a>
+                                <a href="#" data-scroll-nav='8'>Send Message</a>								
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-8 col-8">
+                        <div class="about-image">							
+                            <img src="./img/mm.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- Services Section -->
+        <section class="services section-padding bg-grey" data-scroll-index='2'>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-title">
+                            <h2>My Services</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum explicabo maxime.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="services-item">
+                            <div class="services-icon"><img src="./img/icons/web-developer.png" alt="" class="img-fluid"></div>
+                            <div class="services-info">
+                                <h4>Web Developer</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, voluptates.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="services-item">
+                            <div class="services-icon"><img src="./img/icons/designer.png" alt="" class="img-fluid"></div>
+                            <div class="services-info">
+                                <h4>Designer</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, voluptates.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="services-item">
+                            <div class="services-icon"><img src="./img/icons/photographer.png" alt="" class="img-fluid"></div>
+                            <div class="services-info">
+                                <h4>Photographer</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, voluptates.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="services-item">
+                            <div class="services-icon"><img src="./img/icons/seo-specialist.png" alt="" class="img-fluid"></div>
+                            <div class="services-info">
+                                <h4>SEO Specialist</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, voluptates.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<link rel="stylesheet" href="./assets/owl/owl.carousel.min.css">
-<link rel="stylesheet" href="./assets/owl/owl.theme.default.min.css">
-
-
-		<!-- Fontawesome icons -->
-	<link rel="stylesheet" href="./assets/fontawesome.css">
-		<!-- Main styles -->
-	<link rel="stylesheet" href="./css/style.css">
-		<!-- Media queries -->
-	<link rel="stylesheet" href="./css/media.css">
-</head>
-<body>
-
-	<!-- Back to top button -->
-	<a href="#" id="back-to-top" title="Back to top">&uarr;</a>
-
-	<!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
-		<div class="container">
-			<div class="navbar-title">Jacob</div>
-			<button class="hamburger hamburger--slider navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="hamburger-box">
-					<span class="hamburger-inner"></span>
-				</span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" data-scroll-nav='0'>Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" data-scroll-nav='1'>About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" data-scroll-nav='2'>Services</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" data-scroll-nav='3'>Works</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" data-scroll-nav='4'>Testimonials</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" data-scroll-nav='5'>Team</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" data-scroll-nav='6'>Pricing</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" data-scroll-nav='7'>Contact</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-    </nav>
-	<!-- NAVBAR END -->
-	
-	<!-- HEADER BANNER -->
-	<section class="header" data-scroll-index='0'>
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<div class="header__banner">
-						<p class="name">Hi, my name is <span>Jacob</span></p>
-						<ul>
-							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
-							<li><a href="#"><i class="fab fa-vk"></i></a></li>
-							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-						</ul>
-						<span class="bounce anchor animated infinite slow"><i data-scroll-nav='1' class="fas fa-arrow-down"></i></span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- HEADER BANNER END -->
-
-	<section class="about section-padding" data-scroll-index='1'>
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-6">
-					<div class="section-title">
-						<h2>Who I Am?</h2>
-						<p> magni corrupti eius quos, et veniam repellendus facere iusto blanditiis. Iure, deleniti, omnis. Quos, iure quas!</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4">
-					<div class="features">
-						<div class="features-icon"><i class="fas fa-code"></i></div>
-						<h4>Web Developer</h4>
-						<p> sit amet, consectetur adipisicing elit. Ratione iste perspiciatis pariatur laudantium quod dicta, exercitationem delectus ad rerum </p>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="features">
-						<div class="features-icon"><i class="fas fa-pen-fancy"></i></div>
-						<h4>Designer</h4>
-						<p> sit amet, consectetur adipisicing elit. Ratione iste perspiciatis pariatur laudantium quod dicta, exercitationem delectus ad rerum </p>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="features">
-						<div class="features-icon"><i class="fas fa-camera-retro"></i></div>
-						<h4>Photographer</h4>
-						<p> sit amet, consectetur adipisicing elit. Ratione iste perspiciatis pariatur laudantium quod dicta, exercitationem delectus ad rerum </p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="services section-padding bg-grey" data-scroll-index='2'>
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-6">
-					<div class="section-title">
-						<h2>My Services</h2>
-						<p> magni corrupti eius quos, et veniam repellendus facere iusto blanditiis. Iure, deleniti, omnis. Quos, iure quas!</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6 col-md-6">
-					<div class="services-item">
-						<div class="services-icon"><img src="./img/icons/web-developer.png" alt="" class="img-fluid"></div>
-						<div class="services-info">
-							<h4>Web Developer</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, voluptates.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6">
-					<div class="services-item">
-						<div class="services-icon"><img src="./img/icons/designer.png" alt="" class="img-fluid"></div>
-						<div class="services-info">
-							<h4>Designer</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, voluptates.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6">
-					<div class="services-item">
-						<div class="services-icon"><img src="./img/icons/photographer.png" alt="" class="img-fluid"></div>
-						<div class="services-info">
-							<h4>Photographer</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, voluptates.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6">
-					<div class="services-item">
-						<div class="services-icon"><img src="./img/icons/seo-specialist.png" alt="" class="img-fluid"></div>
-						<div class="services-info">
-							<h4>SEO Specialist</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, voluptates.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="works section-padding" data-scroll-index='3'>
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-6">
-					<div class="section-title">
-						<h2>My Works</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum explicabo maxime, earum aliquid pariatur commodi.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12">
-					<div class="works-filters">
-						<div class="ui-group">
-							<div class="works-group js-radio-button-group" data-filter-group="works">
-								<button class="works-group_item  is-checked" data-filter="*">All</button>
-								<button class="works-group_item" data-filter=".frontend">Frontend</button>
-								<button class="works-group_item" data-filter=".backend">Backend</button>
-								<button class="works-group_item" data-filter=".design">Design</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="grid row">
-				<!-- item -->
-				<div class="item col-lg-4 col-md-6 col-12 backend">
-					<a class="popup-with-zoom-anim" href="#item1">
-						<div class="overlay"></div>
-						<img class="works__grid_item-image" src="img/portfolio/image8.jpg" alt=""/>
-						<div class="caption">
-							<h4>Project 1</h4>
-						</div>
-					</a>
-					<!-- popup section start-->
-					<div id="item1" class="works__item-dialog zoom-anim-dialog mfp-hide">
-						<div class="popup-top">
-							<img src="img/portfolio/image8.jpg" alt="">
-							<div class="info">
-								<ul>
-									<li><span><strong>Name: </strong>Project 1</span></li>
-									<li><span><strong>Price: </strong>40$</span></li>
-									<li><span><strong>Type: </strong>Backend</span></li>
-									<li><span><strong>Complexity: </strong>High</span></li>
-								</ul>
-							</div>
-						</div>
-						<div class="popup-description">
-							<p><strong>Description: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit vitae deleniti qui aliquam dignissimos repellat officiis optio quos delectus vel adipisci at accusantium atque quaerat perferendis aperiam, explicabo tempora eum repudiandae tempore sequi voluptates incidunt! Dolorem illum veniam illo quo voluptatem quod sapiente et suscipit! Eum sed labore ratione dolore reprehenderit repellat neque non repudiandae, porro tenetur, possimus sint nihil placeat, culpa quas enim totam modi laborum sunt error itaque?</p>
-						</div>
-					</div>
-				</div>
-
-				<!-- item -->
-				<div class="item col-lg-4 col-md-6 col-12 slideshow frontend">
-					<a class="popup-with-zoom-anim" href="#item2">
-						<div class="overlay"></div>
-						<img class="works__grid_item-image" src="img/portfolio/image9.jpg" alt=""/>
-						<div class="caption">
-							<h4>Project 2</h4>
-						</div>
-					</a>
-					<!-- popup section start-->
-					<div id="item2" class="works__item-dialog zoom-anim-dialog mfp-hide">
-							<div class="popup-top">
-								<img src="img/portfolio/image9.jpg" alt="">
-								<div class="info">
-									<ul>
-										<li><span><strong>Name: </strong>Project 2</span></li>
-										<li><span><strong>Price: </strong>40$</span></li>
-										<li><span><strong>Type: </strong>Frontend</span></li>
-										<li><span><strong>Complexity: </strong>High</span></li>
-									</ul>
-								</div>
-							</div>
-							<div class="popup-description">
-								<p><strong>Description: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit vitae deleniti qui aliquam dignissimos repellat officiis optio quos delectus vel adipisci at accusantium atque quaerat perferendis aperiam, explicabo tempora eum repudiandae tempore sequi voluptates incidunt! Dolorem illum veniam illo quo voluptatem quod sapiente et suscipit! Eum sed labore ratione dolore reprehenderit repellat neque non repudiandae, porro tenetur, possimus sint nihil placeat, culpa quas enim totam modi laborum sunt error itaque?</p>
-							</div>
-						</div>
-				</div>
-
-				<!-- item -->
-				<div class="item col-lg-4 col-md-6 col-12 design">
-					<a class="popup-with-zoom-anim" href="#item3">
-						<div class="overlay"></div>
-						<img class="works__grid_item-image" src="img/portfolio/image2.jpg" alt=""/>
-						<div class="caption">
-							<h4>Project 3</h4>
-						</div>
-					</a>
-					<!-- popup section start-->
-					<div id="item3" class="works__item-dialog zoom-anim-dialog mfp-hide">
-						<img class="popup-image" src="img/portfolio/image2.jpg" alt=""/>
-						<h1>Project 3</h1>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non quod quos possimus, fuga! Doloribus, modi, laborum voluptatibus, veritatis, ex distinctio deleniti voluptates ea esse iure similique. Earum optio mollitia, reiciendis?
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non quod quos possimus, fuga! Doloribus, modi, laborum voluptatibus, veritatis, ex distinctio deleniti voluptates ea esse iure similique. Earum optio mollitia, reiciendis?
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non quod quos possimus, fuga! Doloribus, modi, laborum voluptatibus, veritatis, ex distinctio deleniti voluptates ea esse iure similique. Earum optio mollitia, reiciendis?
-						</p>
-					<!-- popup section end-->
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="testimonials section-padding bg-grey" data-scroll-index='4'>
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-6">
-					<div class="section-title">
-						<h2>Testimonials</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum explicabo maxime.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-lg-8">
-					<div class="testimonials-carousel owl-carousel owl-theme">
-					    <div class="testimonials-item">
-					    	<p>"amet, consectetur adipisicing elit. Quibusdam recusandae asperiores ducimus est fugit, maiores placeat voluptate possimus odit, corporis animi repudiandae error quod, quisquam dolor! Fugiat neque odit magni Lorem ipsum dolor.."</p>
-					    	<img src="./img/client.jpg" alt="" class="">
-					    	<span>Manager</span>
-					    	<h5>Alex Doe</h5>
-					    </div>
-					    <div class="testimonials-item">
-					    	<p>"amet, consectetur adipisicing elit. Quibusdam recusandae asperiores ducimus est fugit, maiores placeat voluptate possimus odit, corporis animi repudiandae error quod, quisquam dolor! Fugiat neque odit magni Lorem ipsum dolor.."</p>
-					    	<img src="./img/client.jpg" alt="" class="">
-					    	<span>Designer</span>
-					    	<h5>Alex Doe</h5>
-					    </div>
-					    <div class="testimonials-item">
-					    	<p>"amet, consectetur adipisicing elit. Quibusdam recusandae asperiores ducimus est fugit, maiores placeat voluptate possimus odit, corporis animi repudiandae error quod, quisquam dolor! Fugiat neque odit magni Lorem ipsum dolor.."</p>
-					    	<img src="./img/client.jpg" alt="" class="">
-					    	<span>Businessman</span>
-					    	<h5>Alex Doe</h5>
-					    </div>
-					</div>
-				</div>
-			</div>
-		</div>	
-	</section>
-
-	<section class="team section-padding" data-scroll-index='5'>
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-6">
-					<div class="section-title">
-						<h2>My Team</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum explicabo maxime.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-3 col-sm-6 col-xs-12">
-					<div class="team-member">
-					    <div class="hovereffect">
-					        <img class="img-responsive" src="./img/team/pexels-photo-220453.jpeg" alt="">
-					        <div class="overlay">
-					           <h2>Social links</h2>
-					           <a class="info" href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
-					           <a class="info" href="#" title="Reddit"><i class="fab fa-reddit"></i></a>
-					           <a class="info" href="#" title="Twitter"><i class="fab fa-twitter-square"></i></a>
-					           <a class="info" href="#" title="Github"><i class="fab fa-github-square"></i></a>
-					        </div>
-					    </div>
-					    <div class="team-member_info">
-						    <h5>Alex Doe</h5>
-						    <span>Python Developer</span>
-					    </div>
-
-				    </div>
-				</div>
-				<div class="col-lg-3 col-sm-6 col-xs-12">
-					<div class="team-member">
-					    <div class="hovereffect">
-					        <img class="img-responsive" src="./img/team/pexels-photo-733872.jpeg" alt="">
-					        <div class="overlay">
-					           <h2>Social links</h2>
-					           <a class="info" href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
-					           <a class="info" href="#" title="Reddit"><i class="fab fa-reddit"></i></a>
-					           <a class="info" href="#" title="Twitter"><i class="fab fa-twitter-square"></i></a>
-					           <a class="info" href="#" title="Medium"><i class="fab fa-medium"></i></a>
-					        </div>
-					    </div>
-					    <div class="team-member_info">
-						    <h5>Alex Doe</h5>
-						    <span>Designer</span>
-						</div>
-				    </div>
-				</div>
-				<div class="col-lg-3 col-sm-6 col-xs-12">
-					<div class="team-member">
-					    <div class="hovereffect">
-					        <img class="img-responsive" src="./img/team/pexels-photo-736716.jpeg" alt="">
-					        <div class="overlay">
-					           <h2>Social links</h2>
-					           <a class="info" href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
-					           <a class="info" href="#" title="Reddit"><i class="fab fa-reddit"></i></a>
-					           <a class="info" href="#" title="Twitter"><i class="fab fa-twitter-square"></i></a>
-					           <a class="info" href="#" title="Github"><i class="fab fa-github-square"></i></a>
-					        </div>
-					    </div>
-					    <div class="team-member_info">
-						    <h5>Alex Doe</h5>
-						    <span>Android Developer</span>
-						</div>
-				    </div>
-				</div>
-				<div class="col-lg-3 col-sm-6 col-xs-12">
-					<div class="team-member">
-					    <div class="hovereffect">
-					        <img class="img-responsive" src="./img/team/pexels-photo-450271.jpeg" alt="">
-					        <div class="overlay">
-					           <h2>Social links</h2>
-					           <a class="info" href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
-					           <a class="info" href="#" title="Reddit"><i class="fab fa-reddit"></i></a>
-					           <a class="info" href="#" title="Twitter"><i class="fab fa-twitter-square"></i></a>
-					           <a class="info" href="#" title="Google +"><i class="fab fa-google-plus-g"></i></a>
-					        </div>
-					    </div>
-					    <div class="team-member_info">
-						    <h5>Alex Doe</h5>
-						    <span>SEO Specialist</span>
-						</div>
-				    </div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="prices section-padding bg-grey" data-scroll-index='6'>
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-6">
-					<div class="section-title">
-						<h2>Best Pricing Plan</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum explicabo maxime.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4">
-					<div class="price_box">
-						<div class="price_name"><h4>STARTER</h4></div>
-						<div class="plan_price">
-							<h1>$10<sub>/Per Month</sub></h1>
-						</div>
-						<div class="price_features">
-							<ul>
-								<li>
-									<p>
-										<i class="far fa-check-circle"></i>
-										Project:
-										<span> 10</span>
-									</p>
-								</li>
-								<li>
-									<p>
-										<i class="far fa-check-circle"></i>
-										Wordpress theme:
-										<span> Yes</span>
-									</p>
-								</li>
-								<li>
-									<p>
-										<i class="far fa-check-circle"></i>
-										Support:
-										<span> No</span>
-									</p>
-								</li>
-								<li>
-									<p>
-										<i class="far fa-check-circle"></i>
-										Security:
-										<span> High</span>
-									</p>
-								</li>
-							</ul>
-						</div>
-						<div class="price_button">
-							<a href="#">Order this plan</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="price_box">
-						<div class="lable"><h6>BEST PLAN</h6></div>
-						<div class="price_name"><h4>STANDARD</h4></div>
-						<div class="plan_price">
-							<h1>$19<sub>/Per Month</sub></h1>
-						</div>
-						<div class="price_features">
-							<ul>
-								<li>
-									<p>
-										<i class="far fa-check-circle"></i>
-										Project:
-										<span> 19</span>
-									</p>
-								</li>
-								<li>
-									<p>
-										<i class="far fa-check-circle"></i>
-										Wordpress theme:
-										<span> Yes</span>
-									</p>
-								</li>
-								<li>
-									<p>
-										<i class="far fa-check-circle"></i>
-										Support:
-										<span> Yes</span>
-									</p>
-								</li>
-								<li>
-									<p>
-										<i class="far fa-check-circle"></i>
-										Security:
-										<span> High</span>
-									</p>
-								</li>
-							</ul>
-						</div>
-						<div class="price_button">
-							<a href="#">Order this plan</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="price_box">
-						<div class="price_name"><h4>BUSINESS</h4></div>
-						<div class="plan_price">
-							<h1>$30<sub>/Per Month</sub></h1>
-						</div>
-						<div class="price_features">
-							<ul>
-								<li>
-									<p>
-										<i class="far fa-check-circle"></i>
-										Project:
-										<span> 30</span>
-									</p>
-								</li>
-								<li>
-									<p>
-										<i class="far fa-check-circle"></i>
-										Wordpress theme:
-										<span> Yes</span>
-									</p>
-								</li>
-								<li>
-									<p>
-										<i class="far fa-check-circle"></i>
-										Support:
-										<span> Yes</span>
-									</p>
-								</li>
-								<li>
-									<p>
-										<i class="far fa-check-circle"></i>
-										Security:
-										<span> High</span>
-									</p>
-								</li>
-							</ul>
-						</div>
-						<div class="price_button">
-							<a href="#">Order this plan</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="contact section-padding" data-scroll-index='7'>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="contact-details">
-						<h2>Get In Touch</h2>	
-						<p>Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas inventore, sapiente laboriosam cum, dolorum delectus. adipisicing elit. Aperiam labore, praesentium obcaecati laborum maxime dolor impedit, sit qui</p>
-						<ul class="contact-info">
-							<li class="single-contact">
-								<i class="fas fa-phone"></i>
-								<span>+ (720) 571-8522</span>
-							</li>
-							<li class="single-contact">
-								<i class="fas fa-globe-americas"></i>
-								<span>3732 Rose Avenue, New Orleans</span>
-							</li>
-							<li class="single-contact">
-								<i class="far fa-envelope"></i>
-								<span>dCoders@gmail.com</span>
-							</li>
-						</ul>
-					</div>
-				</div>	
-				<div class="col-md-6">
-					<div class="contact-form">
-						<form action="contact.php" method="POST">
+        <!-- Portfolio Section -->
+        <section class="portfolio section-padding" data-scroll-index='3'>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-title">
+                            <h2>My Works</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum explicabo maxime.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="portfolio-content-head">
+                            <ul class="controls">
+                                <li class="filter" data-filter="all">All</li>
+                                <li class="filter" data-filter=".design">Design</li>
+                                <li class="filter" data-filter=".development">Development</li>
+                                <li class="filter" data-filter=".seo">Seo</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs">
+                        <div class="portfolio-content-items">
                             <div class="row">
-                                <div class="form-group col-md-12">
-                                    <input type="text" name="name" class="form-control" id="first-name" placeholder="Name">
+                            	<!-- Portfolio Item -->
+                                <div class="col-md-4 col-sm-6 col-xs-12 mix seo">
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-img">
+                                            <img src="./img/portfolio/gg.jpg" alt="portfolio" class="img-responsive">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <div class="overlay-content-item">
+                                                    <p class="category">Seo</p>
+                                                    <a href="#item1" class="popup-with-zoom-anim">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Popup Container -->
+                                        <div id="item1" class="portfolio-popup zoom-anim-dialog mfp-hide">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-lg-8">
+                                                        <img src="./img/portfolio/gg.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="portfolio-description">
+                                                            <h3>Description Project</h3>
+                                                            <p>upti fugit perspiciatis explicabo, eaque labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero nisi odit dolore. Aut totam quae quia dolores saepe natus maiores ratione, nobis perspiciatis, sint beatae fuga atque, adipisci illum. Provident non ut dolorum at debitis aspernatur quas expedita possimus officia pariatur numquam ad sit, qui recusandae illum commodi porro autem quos? Nostrum, quam, sint. Ea voluptas, fugiat consequuntur</p>
+                                                            <h3>Detail Project</h3>
+                                                            <div class="data">
+                                                                <ul>
+                                                                    <li><strong>Price: </strong> <span>20$</span></li>
+                                                                    <li><strong>Type: </strong> <span>Design</span></li>
+                                                                    <li><strong>Complexity: </strong> <span>Low</span></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="form-group col-md-12">
-                                    <input type="email" name="email" class="form-control" id="email" placeholder="Email">
+                            	<!-- Portfolio Item -->
+                                <div class="col-md-4 col-sm-6 col-xs-12 mix development">
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-img">
+                                            <img src="./img/portfolio/gg.jpg" alt="portfolio" class="img-responsive">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <div class="overlay-content-item">
+                                                    <p class="category">Development</p>
+                                                    <a href="#item2" class="popup-with-zoom-anim">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Popup Container -->
+                                        <div id="item2" class="portfolio-popup zoom-anim-dialog mfp-hide">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-lg-8">
+                                                        <img src="./img/portfolio/gg.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="portfolio-description">
+                                                            <h3>Description Project</h3>
+                                                            <p>upti fugit perspiciatis explicabo, eaque labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero nisi odit dolore. Aut totam quae quia dolores saepe natus maiores ratione, nobis perspiciatis, sint beatae fuga atque, adipisci illum. Provident non ut dolorum at debitis aspernatur quas expedita possimus officia pariatur numquam ad sit, qui recusandae illum commodi porro autem quos? Nostrum, quam, sint. Ea voluptas, fugiat consequuntur</p>
+                                                            <h3>Detail Project</h3>
+                                                            <div class="data">
+                                                                <ul>
+                                                                    <li><strong>Price: </strong> <span>20$</span></li>
+                                                                    <li><strong>Type: </strong> <span>Design</span></li>
+                                                                    <li><strong>Complexity: </strong> <span>Low</span></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="form-group col-md-12">
-                                    <textarea rows="6" name="message" class="form-control" id="description" placeholder="Your Message"></textarea>
+                            	<!-- Portfolio Item -->
+                                <div class="col-md-4 col-sm-6 col-xs-12 mix design">
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-img">
+                                            <img src="./img/portfolio/gg.jpg" alt="portfolio" class="img-responsive">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <div class="overlay-content-item">
+                                                    <p class="category">DESIGN</p>
+                                                    <a href="#item3" class="popup-with-zoom-anim">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Popup Container -->
+                                        <div id="item3" class="portfolio-popup zoom-anim-dialog mfp-hide">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-lg-8">
+                                                        <img src="./img/portfolio/gg.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="portfolio-description">
+                                                            <h3>Description Project</h3>
+                                                            <p>upti fugit perspiciatis explicabo, eaque labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero nisi odit dolore. Aut totam quae quia dolores saepe natus maiores ratione, nobis perspiciatis, sint beatae fuga atque, adipisci illum. Provident non ut dolorum at debitis aspernatur quas expedita possimus officia pariatur numquam ad sit, qui recusandae illum commodi porro autem quos? Nostrum, quam, sint. Ea voluptas, fugiat consequuntur</p>
+                                                            <h3>Detail Project</h3>
+                                                            <div class="data">
+                                                                <ul>
+                                                                    <li><strong>Price: </strong> <span>20$</span></li>
+                                                                    <li><strong>Type: </strong> <span>Design</span></li>
+                                                                    <li><strong>Complexity: </strong> <span>Low</span></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-12">
-                                    <div class="actions">
-                                        <input type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-lg btn-contact-bg" title="Submit Your Message!">
+                            	<!-- Portfolio Item -->
+                                <div class="col-md-4 col-sm-6 col-xs-12 mix development">
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-img">
+                                            <img src="./img/portfolio/gg.jpg" alt="portfolio" class="img-responsive">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <div class="overlay-content-item">
+                                                    <p class="category">Development</p>
+                                                    <a href="#item4" class="popup-with-zoom-anim">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Popup Container -->
+                                        <div id="item4" class="portfolio-popup zoom-anim-dialog mfp-hide">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-lg-8">
+                                                        <img src="./img/portfolio/gg.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="portfolio-description">
+                                                            <h3>Description Project</h3>
+                                                            <p>upti fugit perspiciatis explicabo, eaque labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero nisi odit dolore. Aut totam quae quia dolores saepe natus maiores ratione, nobis perspiciatis, sint beatae fuga atque, adipisci illum. Provident non ut dolorum at debitis aspernatur quas expedita possimus officia pariatur numquam ad sit, qui recusandae illum commodi porro autem quos? Nostrum, quam, sint. Ea voluptas, fugiat consequuntur</p>
+                                                            <h3>Detail Project</h3>
+                                                            <div class="data">
+                                                                <ul>
+                                                                    <li><strong>Price: </strong> <span>20$</span></li>
+                                                                    <li><strong>Type: </strong> <span>Design</span></li>
+                                                                    <li><strong>Complexity: </strong> <span>Low</span></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            	<!-- Portfolio Item -->
+                                <div class="col-md-4 col-sm-6 col-xs-12 mix seo">
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-img">
+                                            <img src="./img/portfolio/gg.jpg" alt="portfolio" class="img-responsive">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <div class="overlay-content-item">
+                                                    <p class="category">Seo</p>
+                                                    <a href="#item5" class="popup-with-zoom-anim">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Popup Container -->
+                                        <div id="item5" class="portfolio-popup zoom-anim-dialog mfp-hide">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-lg-8">
+                                                        <img src="./img/portfolio/gg.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="portfolio-description">
+                                                            <h3>Description Project</h3>
+                                                            <p>upti fugit perspiciatis explicabo, eaque labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero nisi odit dolore. Aut totam quae quia dolores saepe natus maiores ratione, nobis perspiciatis, sint beatae fuga atque, adipisci illum. Provident non ut dolorum at debitis aspernatur quas expedita possimus officia pariatur numquam ad sit, qui recusandae illum commodi porro autem quos? Nostrum, quam, sint. Ea voluptas, fugiat consequuntur</p>
+                                                            <h3>Detail Project</h3>
+                                                            <div class="data">
+                                                                <ul>
+                                                                    <li><strong>Price: </strong> <span>20$</span></li>
+                                                                    <li><strong>Type: </strong> <span>Design</span></li>
+                                                                    <li><strong>Complexity: </strong> <span>Low</span></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            	<!-- Portfolio Item -->
+                                <div class="col-md-4 col-sm-6 col-xs-12 mix development">
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-img">
+                                            <img src="./img/portfolio/gg.jpg" alt="portfolio" class="img-responsive">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <div class="overlay-content-item">
+                                                    <p class="category">Development</p>
+                                                    <a href="#item6" class="popup-with-zoom-anim">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Popup Container -->
+                                        <div id="item6" class="portfolio-popup zoom-anim-dialog mfp-hide">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-lg-8">
+                                                        <img src="./img/portfolio/gg.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="portfolio-description">
+                                                            <h3>Description Project</h3>
+                                                            <p>upti fugit perspiciatis explicabo, eaque labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero nisi odit dolore. Aut totam quae quia dolores saepe natus maiores ratione, nobis perspiciatis, sint beatae fuga atque, adipisci illum. Provident non ut dolorum at debitis aspernatur quas expedita possimus officia pariatur numquam ad sit, qui recusandae illum commodi porro autem quos? Nostrum, quam, sint. Ea voluptas, fugiat consequuntur</p>
+                                                            <h3>Detail Project</h3>
+                                                            <div class="data">
+                                                                <ul>
+                                                                    <li><strong>Price: </strong> <span>20$</span></li>
+                                                                    <li><strong>Type: </strong> <span>Design</span></li>
+                                                                    <li><strong>Complexity: </strong> <span>Low</span></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            	<!-- Portfolio Item -->
+                                <div class="col-md-4 col-sm-6 col-xs-12 mix design">
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-img">
+                                            <img src="./img/portfolio/gg.jpg" alt="portfolio" class="img-responsive">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <div class="overlay-content-item">
+                                                    <p class="category">DESIGN</p>
+                                                    <a href="#item7" class="popup-with-zoom-anim">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Popup Container -->
+                                        <div id="item7" class="portfolio-popup zoom-anim-dialog mfp-hide">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-lg-8">
+                                                        <img src="./img/portfolio/gg.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="portfolio-description">
+                                                            <h3>Description Project</h3>
+                                                            <p>upti fugit perspiciatis explicabo, eaque labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero nisi odit dolore. Aut totam quae quia dolores saepe natus maiores ratione, nobis perspiciatis, sint beatae fuga atque, adipisci illum. Provident non ut dolorum at debitis aspernatur quas expedita possimus officia pariatur numquam ad sit, qui recusandae illum commodi porro autem quos? Nostrum, quam, sint. Ea voluptas, fugiat consequuntur</p>
+                                                            <h3>Detail Project</h3>
+                                                            <div class="data">
+                                                                <ul>
+                                                                    <li><strong>Price: </strong> <span>20$</span></li>
+                                                                    <li><strong>Type: </strong> <span>Design</span></li>
+                                                                    <li><strong>Complexity: </strong> <span>Low</span></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            	<!-- Portfolio Item -->
+                                <div class="col-md-4 col-sm-6 col-xs-12 mix design">
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-img">
+                                            <img src="./img/portfolio/gg.jpg" alt="portfolio" class="img-responsive">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <div class="overlay-content-item">
+                                                    <p class="category">DESIGN</p>
+                                                    <a href="#item8" class="popup-with-zoom-anim">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Popup Container -->
+                                        <div id="item8" class="portfolio-popup zoom-anim-dialog mfp-hide">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-lg-8">
+                                                        <img src="./img/portfolio/gg.jpg" alt="">
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="portfolio-description">
+                                                            <h3>Description Project</h3>
+                                                            <p>upti fugit perspiciatis explicabo, eaque labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero nisi odit dolore. Aut totam quae quia dolores saepe natus maiores ratione, nobis perspiciatis, sint beatae fuga atque, adipisci illum. Provident non ut dolorum at debitis aspernatur quas expedita possimus officia pariatur numquam ad sit, qui recusandae illum commodi porro autem quos? Nostrum, quam, sint. Ea voluptas, fugiat consequuntur</p>
+                                                            <h3>Detail Project</h3>
+                                                            <div class="data">
+                                                                <ul>
+                                                                    <li><strong>Price: </strong> <span>20$</span></li>
+                                                                    <li><strong>Type: </strong> <span>Design</span></li>
+                                                                    <li><strong>Complexity: </strong> <span>Low</span></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            	<!-- Portfolio Item -->
+                                <div class="col-md-4 col-sm-6 col-xs-12 mix seo">
+                                    <div class="portfolio-item">
+                                        <div class="portfolio-img">
+                                            <img src="./img/portfolio/gg.jpg" alt="portfolio" class="img-responsive">
+                                        </div>
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <div class="overlay-content-item">
+                                                    <p class="category">Seo</p>
+                                                    <a href="#item9" class="popup-with-zoom-anim">
+                                                        <div class="magnify-icon">
+                                                            <p><span><i class="fa fa-search" aria-hidden="true"></i></span></p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Popup Container -->
+                                        <div id="item9" class="portfolio-popup zoom-anim-dialog mfp-hide">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-lg-8">
+                                                        <img src="./img/portfolio/img9.jpeg" alt="">
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="portfolio-description">
+                                                            <h3>Description Project</h3>
+                                                            <p>upti fugit perspiciatis explicabo, eaque labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero ne labore temporibus doloribus, vel nemo aut nobis libero nisi odit dolore. Aut totam quae quia dolores saepe natus maiores ratione, nobis perspiciatis, sint beatae fuga atque, adipisci illum. Provident non ut dolorum at debitis aspernatur quas expedita possimus officia pariatur numquam ad sit, qui recusandae illum commodi porro autem quos? Nostrum, quam, sint. Ea voluptas, fugiat consequuntur</p>
+                                                            <h3>Detail Project</h3>
+                                                            <div class="data">
+                                                                <ul>
+                                                                    <li><strong>Price: </strong> <span>20$</span></li>
+                                                                    <li><strong>Type: </strong> <span>Design</span></li>
+                                                                    <li><strong>Complexity: </strong> <span>Low</span></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- Testimonials Section -->
+        <section class="testimonials section-padding bg-grey" data-scroll-index='4'>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-title">
+                            <h2>What Clients Says?</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum explicabo maxime.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="testimonials-carousel owl-carousel owl-theme">
+                            <div class="testimonials-item">
+                                <div class="testimonials-icon"><img src="./quote.png" alt=""></div>
+                                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero omnis temporibus nulla facilis."</p>
+                                <img class="testimonials-character" src="./img/team/pexels-photo-736716.jpeg" alt="">
+                                <h4>Leslie Morse</h4>
+                                <span>Businessman</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-		<!-- Jquery -->
-	<script src="./assets/jquery-3.3.1.min.js"></script>
-		<!-- Bootstrap -->
-	<script src="./assets/bootstrap.min.js"></script>
-		<!-- Isotope gallery -->
-	<script src="./assets/isotope.pkgd.min.js"></script>
-		<!-- magnific popup -->
-	<script src="./assets/jquery.magnific-popup.min.js"></script>
-		<!-- OWL carousel -->
-	<script src="./assets/owl/owl.carousel.js"></script>
-		<!-- ScrollIt -->
-	<script src="./assets/scrollIt.min.js"></script>
-		<!-- Main js scripts -->
-	<script src="./js/main.js"></script>
-</body>
+        <!-- Team Section -->
+        <section class="team section-padding" data-scroll-index='5'>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-title">
+                            <h2>My Team</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum explicabo maxime.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="team-member">
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="./img/team/pexels-photo-220453.jpeg" alt="">
+                                <div class="overlay">
+                                    <h2>Social links</h2>
+                                    <a class="info" href="#" title="Facebook">
+                                    <img src="./img/icons/team/facebook.png" alt="">
+                                    </a>
+                                    <a class="info" href="#" title="Reddit">
+                                    <img src="./img/icons/team/reddit-alien-head-logo.png" alt="">
+                                    </a>
+                                    <a class="info" href="#" title="Twitter">
+                                    <img src="./img/icons/team/twitter.png" alt="">
+                                    </a>
+                                    <a class="info" href="#" title="Github">
+                                    <img src="./img/icons/team/github-logo.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="team-member_info">
+                                <h5>Franklin Gordon</h5>
+                                <span>Python Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="team-member">
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="./img/team/pexels-photo-733872.jpeg" alt="">
+                                <div class="overlay">
+                                    <h2>Social links</h2>
+                                    <a class="info" href="#" title="Facebook">
+                                    <img src="./img/icons/team/facebook.png" alt="">
+                                    </a>
+                                    <a class="info" href="#" title="Reddit">
+                                    <img src="./img/icons/team/reddit-alien-head-logo.png" alt="">
+                                    </a>
+                                    <a class="info" href="#" title="Twitter">
+                                    <img src="./img/icons/team/twitter.png" alt="">
+                                    </a>
+                                    <a class="info" href="#" title="Medium">
+                                    <img src="./img/icons/team/medium.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="team-member_info">
+                                <h5>Jade Dunn</h5>
+                                <span>Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="team-member">
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="./img/team/pexels-photo-736716.jpeg" alt="">
+                                <div class="overlay">
+                                    <h2>Social links</h2>
+                                    <a class="info" href="#" title="Facebook">
+                                    <img src="./img/icons/team/facebook.png" alt="">
+                                    </a>
+                                    <a class="info" href="#" title="Reddit">
+                                    <img src="./img/icons/team/reddit-alien-head-logo.png" alt="">
+                                    </a>
+                                    <a class="info" href="#" title="Twitter">
+                                    <img src="./img/icons/team/twitter.png" alt="">
+                                    </a>
+                                    <a class="info" href="#" title="Github">
+                                    <img src="./img/icons/team/github-logo.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="team-member_info">
+                                <h5>Justin Blake</h5>
+                                <span>Android Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="team-member">
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="./img/team/pexels-photo-450271.jpeg" alt="">
+                                <div class="overlay">
+                                    <h2>Social links</h2>
+                                    <a class="info" href="#" title="Facebook">
+                                    <img src="./img/icons/team/facebook.png" alt="">
+                                    </a>
+                                    <a class="info" href="#" title="Reddit">
+                                    <img src="./img/icons/team/reddit-alien-head-logo.png" alt="">
+                                    </a>
+                                    <a class="info" href="#" title="Twitter">
+                                    <img src="./img/icons/team/twitter.png" alt="">
+                                    </a>
+                                    <a class="info" href="#" title="Google +">
+                                    <img src="./img/icons/team/google-plus.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="team-member_info">
+                                <h5>Ricky Newton</h5>
+                                <span>SEO Specialist</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prices Section -->
+        <section class="prices section-padding bg-grey" data-scroll-index='6'>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-title">
+                            <h2>Best Pricing Plan</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum explicabo maxime.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="price_box">
+                            <div class="price_name">
+                                <h4>STARTER</h4>
+                            </div>
+                            <div class="plan_price">
+                                <h1>$10<sub>/Per Month</sub></h1>
+                            </div>
+                            <div class="price_features">
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <img src="./correct.png" alt="">
+                                            Project:
+                                            <span> 10</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <img src="./correct.png" alt="">
+                                            Wordpress theme:
+                                            <span> Yes</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <img src="./correct.png" alt="">
+                                            Support:
+                                            <span> No</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <img src="./correct.png" alt="">
+                                            Security:
+                                            <span> High</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="price_button">
+                                <a href="#">Order this plan</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="price_box">
+                            <div class="lable">
+                                <h6>BEST PLAN</h6>
+                            </div>
+                            <div class="price_name">
+                                <h4>STANDARD</h4>
+                            </div>
+                            <div class="plan_price">
+                                <h1>$19<sub>/Per Month</sub></h1>
+                            </div>
+                            <div class="price_features">
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <img src="./correct.png" alt="">
+                                            Project:
+                                            <span> 19</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <img src="./correct.png" alt="">
+                                            Wordpress theme:
+                                            <span> Yes</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <img src="./correct.png" alt="">
+                                            Support:
+                                            <span> Yes</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <img src="./correct.png" alt="">
+                                            Security:
+                                            <span> High</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="price_button">
+                                <a href="#">Order this plan</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="price_box">
+                            <div class="price_name">
+                                <h4>BUSINESS</h4>
+                            </div>
+                            <div class="plan_price">
+                                <h1>$30<sub>/Per Month</sub></h1>
+                            </div>
+                            <div class="price_features">
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <img src="./correct.png" alt="">
+                                            Project:
+                                            <span> 30</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <img src="./correct.png" alt="">
+                                            Wordpress theme:
+                                            <span> Yes</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <img src="./correct.png" alt="">
+                                            Support:
+                                            <span> Yes</span>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <img src="./correct.png" alt="">
+                                            Security:
+                                            <span> High</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="price_button">
+                                <a href="#">Order this plan</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Help Section -->
+        <section class="help section-padding" data-scroll-index='7'>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-title">
+                            <h2>F.A.Q</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum explicabo maxime.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="accordion_container">
+                            <div class="accordion_head">How long does the development take?<span class="sign">+</span></div>
+                            <div class="accordion_body" style="display: none;">
+                                <p>Aut mollitia iusto hic repudiandae provident, dolores ipsam laboriosam sapiente, culpa ipsa minima architecto delectus sunt voluptas molestias expedita adipisci pariatur! Fuga.</p>
+                            </div>
+                            <div class="accordion_head">What guarantees do we give?<span class="sign">+</span></div>
+                            <div class="accordion_body" style="display: none;">
+                                <p>Aut mollitia iusto hic repudiandae provident, dolores ipsam laboriosam sapiente, culpa ipsa minima architecto delectus sunt voluptas molestias expedita adipisci pariatur! Fuga.</p>
+                            </div>
+                            <div class="accordion_head">Can you join?<span class="sign">+</span></div>
+                            <div class="accordion_body" style="display: none;">
+                                <p>Aut mollitia iusto hic repudiandae provident, dolores ipsam laboriosam sapiente, culpa ipsa minima architecto delectus sunt voluptas molestias expedita adipisci pariatur! Fuga.</p>
+                            </div>
+                            <div class="accordion_head">How is the payment?<span class="sign">+</span></div>
+                            <div class="accordion_body" style="display: none;">
+                                <p>Aut mollitia iusto hic repudiandae provident, dolores ipsam laboriosam sapiente, culpa ipsa minima architecto delectus sunt voluptas molestias expedita adipisci pariatur! Fuga.</p>
+                            </div>
+                            <div class="accordion_head">Why we?<span class="sign">+</span></div>
+                            <div class="accordion_body" style="display: none;">
+                                <p>Aut mollitia iusto hic repudiandae provident, dolores ipsam laboriosam sapiente, culpa ipsa minima architecto delectus sunt voluptas molestias expedita adipisci pariatur! Fuga.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section-padding bg-grey" data-scroll-index='8'>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="contact-details">
+                            <h2>Get In Touch</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas inventore, sapiente laboriosam cum, dolorum delectus. adipisicing elit. Aperiam labore, praesentium obcaecati laborum maxime dolor impedit, sit qui</p>
+                            <ul class="contact-info">
+                                <li class="single-contact">
+                                    <img src="./img/icons/contact/call.png" alt="">
+                                    <!-- <i class="fas fa-phone"></i> -->
+                                    <span>+ (720) 571-8522</span>
+                                </li>
+                                <li class="single-contact">
+                                    <img src="./img/icons/contact/internet.png" alt="">
+                                    <!-- <i class="fas fa-globe-americas"></i> -->
+                                    <span>3732 Rose Avenue, New Orleans</span>
+                                </li>
+                                <li class="single-contact">
+                                    <img src="./img/icons/contact/email.png" alt="">
+                                    <!-- <i class="far fa-envelope"></i> -->
+                                    <span>Jacob06@gmail.com</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="contact-form">
+                            <form action="contact.php" method="POST">
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <input type="text" name="name" class="form-control" id="first-name" placeholder="Name">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <input type="email" name="email" class="form-control" id="email" placeholder="Email">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <textarea rows="6" name="message" class="form-control" id="description" placeholder="Your Message"></textarea>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="actions">
+                                            <input type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-lg btn-contact-bg" title="Submit Your Message!">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h2>Jacob</h2>
+                            <div class="footer_title_border"></div>
+                            <p>consectetur adipisicing elit. Labore quidem esse impedit veritatis eos amet non liberoquidem esse impedit veritatis reprehenderit unde eos amet non libero accusamus quod placeat omnis, a officia </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="footer-item">
+                            <h2>Menu</h2>
+                            <div class="footer_title_border"></div>
+                            <ul>
+                                <li><a href="#" data-scroll-nav='0'>Home</a></li>
+                                <li><a href="#" data-scroll-nav='1'>About</a></li>
+                                <li><a href="#" data-scroll-nav='2'>Services</a></li>
+                                <li><a href="#" data-scroll-nav='3'>Works</a></li>
+                                <li><a href="#" data-scroll-nav='7'>Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h2>Help Center</h2>
+                            <div class="footer_title_border"></div>
+                            <ul>
+                                <li><a href="#">Accounting</a></li>
+                                <li><a href="#">Billing</a></li>
+                                <li><a href="#">General Question</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-item">
+                            <h2>Contact Us</h2>
+                            <div class="footer_title_border"></div>
+                            <p> dolorem ratione unde impedit nobis ut, Lorem ipsum dolor sit. quidem beatae aliquam nisi blanditiis?</p>
+                            <div class="socials">
+                                <a href="#"><i class="facebook fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="telegram fab fa-telegram-plane"></i></a>
+                                <a href="#"><i class="google-plus fab fa-google-plus-g"></i></a>
+                                <a href="#"><i class="twitter fab fa-twitter"></i></a>
+                                <a href="#"><i class="vk fab fa-vk"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Jquery -->
+        <script src="./assets/jquery-3.3.1.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="./assets/bootstrap.min.js"></script>
+        <!-- Mixitup Gallery -->
+        <script src="./assets/mixitup.min.js"></script>
+        <!-- Magnific Popup -->
+        <script src="./assets/jquery.magnific-popup.min.js"></script>
+        <!-- OWL Carousel -->
+        <script src="./assets/owl/owl.carousel.js"></script>
+        <!-- ScrollIt -->
+        <script src="./assets/scrollIt.min.js"></script>
+        <!-- Main Js Scripts -->
+        <script src="./js/main.js"></script>
+    </body>
 </html>

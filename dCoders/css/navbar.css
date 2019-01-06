@@ -2,10 +2,9 @@
   transition: 300ms ease; }
   .navbar .navbar-title {
     margin-left: 10px;
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
     font-size: 36px;
-    color: #dd464a; }
+    color: #fd4d4d; }
   .navbar .hamburger:hover {
     opacity: 1 !important; }
   .navbar .hamburger:focus {
@@ -26,10 +25,10 @@
   font-weight: 700; }
 
 .nav-item .nav-link:hover {
-  color: #DD464A !important; }
+  color: #fd4d4d !important; }
 
 .nav-item .nav-link.active {
-  color: #DD464A !important; }
+  color: #fd4d4d !important; }
 
 .navBar_scrolled {
   color: #111111;

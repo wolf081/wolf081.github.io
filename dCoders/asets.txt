@@ -1,0 +1,70 @@
+Jacob - Personal Portfolio Template is a Modern and Clean html template that is built on bootstrap. It is Fully Responsive and Compatible with all types of Screens, Devices and Bowsers. It is mostly suitable for corporate, agency, creative business, company, product or service selling website. Please check the features for more details.
+
+
+html, one page, bootstrap, freelancer, designer, programmer, responsive,  personal, portfolio, blog, gallery, sass, resume, modern, business, photographer
+
+-Easy Customizable
+-Based on Bootstrap
+-Fully Responsive
+
+<h3>Template Features:</h3>
+<ul>
+<li>Fully responsive</li>
+<li>Multiple fonts used</li>
+<li>One page navigation</li>
+<li>Based on Bootstrap</li>
+<li>Fixed Menu</li>
+<li>Clean code</li>
+<li>Font Awesome icons</li>
+<li>Clean Code</li>
+<li>SASS + Gulp files included</li>
+<li>Easy to customize</li>
+<li>Contact forms</li>
+</ul>
+
+<h3>Files included:</h3>
+<ul>
+<li>HTML Files
+<li>CSS Files
+<li>JS files
+<li>SASS + Gulp files
+</ul>
+
+<h3>Free Font Used:</h3>
+<ul>
+<li>Poppins</li>
+<li>Noto Sans</li>
+<li>Source Sans Pro</li>
+<li>Noto Sans</li>
+<li>Open Sans</li>
+<li>Fira Sans</li>
+</ul>
+
+<h3>Credits :</h3>
+<ul>
+<li>Unsplash (Free images)</li>
+<li>Pexels (Free images)</li>
+<li>jQuery</li>
+<li>Bootstrap 4</li>
+<li>Free fontawesome 5</li>
+<li>Animate css</li>
+<li>Owl Carousel</li>
+<li>Isotope</li>
+<li>Progressbar css</li>
+<li>ScrollIt js</li>
+<li>Magnific Popup</li>
+<li>Hamburgers css</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+http://rapidthemes.net/rakika/index.html
+http://wordpressboss.com/opb/zestia-demo/index-image.html
+https://tavonline.net/html/jobo/

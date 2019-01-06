@@ -1,6 +1,5 @@
 .team .team-member {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif; }
+  text-align: center; }
   .team .team-member .team-member_info {
     display: inline-block; }
     .team .team-member .team-member_info h5 {
@@ -26,7 +25,7 @@
       top: 0;
       left: 0;
       opacity: 0;
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: rgba(0, 0, 0, 0.8);
       -webkit-transition: all .4s ease-in-out;
       transition: all .4s ease-in-out; }
     .team .team-member .hovereffect img {
@@ -62,6 +61,8 @@
       transition: all .2s ease-in-out;
       margin: 26% 0 0;
       padding: 1px 10px; }
+      .team .team-member .hovereffect a.info img {
+        width: 30px !important; }
     .team .team-member .hovereffect:hover img {
       -ms-transform: scale(1.2);
       -webkit-transform: scale(1.2);
